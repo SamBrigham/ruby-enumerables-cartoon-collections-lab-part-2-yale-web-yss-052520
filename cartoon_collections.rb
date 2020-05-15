@@ -24,7 +24,8 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.any? { |element| ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"].include? element }
+  planeteer_calls.find { |element| USE include? HERE}
+ end
  end
 
 
