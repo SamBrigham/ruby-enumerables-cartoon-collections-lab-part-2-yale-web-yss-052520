@@ -24,9 +24,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-while 
  planeteer_calls.find { |planeteer_calls| planeteer_calls == valid_calls}
- end
  return "#{planeteer_calls}"
  end
 
