@@ -12,7 +12,6 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |element|
     puts "#{element.capitalize}!"
   end
-  puts "#{element.capitalize}!"
 end
 
 def long_planeteer_calls(planeteer_calls)
@@ -20,7 +19,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.any? do |element|
     element.length > 4
-    
+  end
     
 end
 
